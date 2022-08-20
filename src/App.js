@@ -17,9 +17,9 @@ function App() {
           </div>
           <div className="col-md-9 main_page">
             <Routes>
-              <Route exact path="/" element={<Home/>}/>
-              <Route exact path="/Sobre" element={<Sobre/>}/>
-              <Route exact path="/Projetos" element={<Projetos/>}/>
+              <Route exact path="/Portifolio" element={<Home/>}/>
+              <Route exact path="/Portifolio/Sobre" element={<Sobre/>}/>
+              <Route exact path="/Portifolio/Projetos" element={<Projetos/>}/>
             </Routes>
           </div>
         </div>

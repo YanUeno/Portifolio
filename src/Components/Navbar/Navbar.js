@@ -26,14 +26,14 @@ function Navbar() {
       <div className='Menu'>
         <ul>
           <li>
-            <Link to="Sobre" className='link'>
+            <Link to="Portifolio/Sobre" className='link'>
               <button className='btn_link'>
               Sobre
               </button>
             </Link>
           </li>
           <li>
-            <Link to="Projetos" className='link'>
+            <Link to="Portifolio/Projetos" className='link'>
               <button className='btn_link'>
                 Projetos
               </button>
