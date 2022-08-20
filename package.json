@@ -1,6 +1,5 @@
 {
   "name": "portifolio",
-  "homepage": "http:/yan-ueno.github.io/portifolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "homepage": "http://mywebsite.com/"
   }
 }
