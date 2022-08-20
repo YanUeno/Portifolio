@@ -1,0 +1,19 @@
+
+
+.Card{
+    padding: 25px 0px;
+    .title{
+        font-size: 30px;
+        display: inline-block;
+        background-color: #09182f;
+        .num{
+            color:#64ffda ;
+        }
+    }
+    .txt{
+        padding: 15px 0px;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #838dab;
+    }
+}

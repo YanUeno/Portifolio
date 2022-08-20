@@ -1,0 +1,62 @@
+.main{
+    .LinkGh{
+        margin: 5px;
+        font-size: 20px;
+        color: #64ffda;
+        text-decoration: none;
+    }
+   .Mcard{
+        background-color: #112240;
+        padding: 30px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        .linguagem{
+            background: #007bff;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+
+
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            span{
+                font-size: 50px;
+            }
+        }
+        .card-title{
+            margin-bottom: 10px;
+        }
+        .card-text{
+            
+        }
+        .link{
+            text-decoration: none;
+            font-size: 20px;
+            .btn_link{
+                margin-top: 20px;
+                color: #64ffda;
+                border: 1px solid #64ffda;
+                border-radius: 4px;
+                padding: 5px 35px;
+                width: auto;
+                background-color: transparent;
+
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                
+            }
+        }
+    } 
+}
