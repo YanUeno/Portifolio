@@ -1,25 +1,31 @@
-import React from "react";
-import {BrowserRouter as Router, Routes, Route,Link} from "react-router-dom";
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './cssReset.css';
 import './MainStyle.scss'
-import Home from './Pages/Home/Home';
 import Sobre from './Pages/Sobre/Sobre'
 import Projetos from './Pages/Projetos/Projetos'
+import Error from './Pages/Error/Error'
+import { AiOutlineMenuUnfold } from 'react-icons/ai';
 function App() {
+  const [menu, setMenu] = useState(true);
   return (
     <Router>
       <div className="container-fluid main">
+        <Navbar menu={menu} setMenu={setMenu} />
         <div className="row">
-          <div className="col-md-3">
-            <Navbar/>
-          </div>
-          <div className="col-md-9 main_page">
+          <div className={`animation col-md-12 main_page `}>
+            {
+              !menu ?
+                <button className='MenuButton' onClick={() => setMenu(!menu)}><AiOutlineMenuUnfold /></button>
+                :
+                null
+            }
             <Routes>
-              <Route exact path="/Portifolio" element={<Home/>}/>
-              <Route exact path="/Portifolio/Sobre" element={<Sobre/>}/>
-              <Route exact path="/Portifolio/Projetos" element={<Projetos/>}/>
+              <Route exact path="/" element={<Sobre />} />
+              <Route exact path="/Projetos" element={<Projetos />} />
+              <Route exact path="*" element={<Error />} />
             </Routes>
           </div>
         </div>

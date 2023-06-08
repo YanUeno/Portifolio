@@ -3,6 +3,7 @@ import Timeline from '../../Components/Timeline/timeline';
 import './style.scss'
 import { Trabalhos } from '../../Dados/Trabalhos'
 import { Formacao } from '../../Dados/FormacaoAcademica'
+import Certificados from '../../Components/Certificados/certificados';
 import Skils from '../../Components/Skils/skils'
 function Rsociais() {
   return (
@@ -13,7 +14,7 @@ function Rsociais() {
         </h2>
         
         <h4 className='txt'>
-        Olá, eu sou o Yan. Prazer em conhecê-lo. Comecei a minha jornada como Desenvolvedor em 2018 no meu colegio médio técnico onde tive meu primeiro contato com a programação, logo depois me apaixonei pela área então fiz meus primeiros freelances em 2020, logo depois dando inicio ao meu estágio, na qual pude por em prática  muitas das habilidades que havia aprendido no colegio. Hoje me encontro atuando como desenvolvedor Full Stack junior, porém, sempre tentando aprender novas tecnologias ampliando meus conhecimentos na área.
+        Olá, meu nome é Yan, sou um desenvolvedor formado em técnico de informática, atualmente cursando Engenharia da Computação. Desde 2020, venho trabalhando com desenvolvimento de software e, durante esse período, adquiri experiência em diversas linguagens de programação, como JavaScript e C#. Estou sempre em busca de novos desafios, onde possa aplicar e aprimorar minhas habilidades e conhecimentos. Se você estiver em busca de um desenvolvedor dedicado, pró-ativo e apaixonado por tecnologia, não hesite em entrar em contato comigo!
         </h4>
       </div>
 
@@ -36,6 +37,13 @@ function Rsociais() {
           <span className='num'>3.</span> Experiencia Profissional
         </h2>
         <Timeline items={Trabalhos}/>
+      </div>
+
+      <div className='Card'>
+        <h2 className='title'>
+          <span className='num'>4.</span> Certificados
+        </h2>
+        <Certificados/>
       </div>
     </div>
   );

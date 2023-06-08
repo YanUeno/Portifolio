@@ -1,61 +1,84 @@
-.LinhaDoTempotempo{
+.LinhaDoTempotempo {
     padding: 15px 70px;
-    .txt{
-        h5,h4{
+
+    .txt {
+        position: relative;
+
+        h5,
+        h4 {
             line-height: 1.2;
         }
-        
-        .item{
+
+        &::before {
+            content: "";
+            background-color: white;
+            width: 1px;
+            height: 80%;
+            position: absolute;
+            left: -38px;
+            top: 20px;
+            z-index: 1;
+        }
+
+        .item {
             position: relative;
-            &:last-child{
-                // background-color: red;
-                &::after{
-                    content: "♦";
-                    position: absolute;
-                    font-size: 25px;
-                    left: -32.5px;
-                    top: 141px;
-                    z-index: 2;
-                    padding-bottom: 4px;
-                    color: white;
-                }
-            }
+            // &:last-child{
+            //     // background-color: red;
+            //     &::after{
+            //         content: "♦";
+            //         position: absolute;
+            //         font-size: 25px;
+            //         left: -44.5px;
+            //         top: 130%;
+            //         z-index: 2;
+            //         padding-bottom: 4px;
+            //         color: white;
+            //     }
+            // }
             margin-bottom: 50px;
-            .ano{
+
+            .ano {
                 margin-right: 40px;
                 font-size: 15px;
                 margin-bottom: 5px;
                 position: relative;
                 color: #7c87a4;
-                &::after{
+
+                &::after {
                     content: "⦿";
                     position: absolute;
                     font-size: 25px;
-                    left: -50px;
-                    top: 10px;
+                    left: -62px;
+                    top: -7px;
                     background-color: #09182f;
                     z-index: 2;
                     padding-bottom: 4px;
                     color: white;
-                }
-                &::before{
-                    content: "";
-                    background-color: white;
-                    width: 1px;
-                    height: 140px;
-                    position: absolute;
-                    left: -38px;
-                    top: 20px;
-                    z-index: 1;
+                    z-index: 9;
                 }
             }
-            .lugar{
+
+            .lugar {
                 font-size: 25px;
                 color: white;
             }
-            .conteudo{
+
+            .conteudo {
                 font-size: 20px;
             }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .LinhaDoTempotempo {
+        padding: 15px 0px 15px 20px;
+        .ano{
+            margin: 0;
+            font-size: 15px;
+        }
+        .lugar{
+            font-size: 19px;
         }
     }
 }

@@ -1,46 +1,51 @@
-.main{
-    .LinkGh{
+.main {
+    .LinkGh {
         margin: 5px;
         font-size: 20px;
         color: #64ffda;
         text-decoration: none;
     }
-   .Mcard{
+
+    .Mcard {
         background-color: #112240;
         padding: 30px;
         border-radius: 5px;
         margin-bottom: 20px;
-        .linguagem{
+        display: flex;
+        gap: 20px;
+
+        .linguagem {
             background: #007bff;
-            height: 200px;
-            width: 200px;
+            height: 120px;
+            min-width: 120px;
             display: inline-block;
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 10px;
-
-
             -webkit-touch-callout: none;
             -webkit-user-select: none;
             -khtml-user-select: none;
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
-            span{
-                font-size: 50px;
+
+            span {
+                font-size: 30px;
             }
         }
-        .card-title{
+
+        .card-title {
             margin-bottom: 10px;
         }
-        .card-text{
-            
-        }
-        .link{
+
+        .card-text {}
+
+        .link {
             text-decoration: none;
-            font-size: 20px;
-            .btn_link{
+            font-size: 15px;
+
+            .btn_link {
                 margin-top: 20px;
                 color: #64ffda;
                 border: 1px solid #64ffda;
@@ -55,8 +60,40 @@
                 -moz-user-select: none;
                 -ms-user-select: none;
                 user-select: none;
-                
+
             }
         }
-    } 
+    }
+}
+
+@media (max-width: 680px) {
+    .main {
+        .Mcard {
+            flex-direction: column;
+            position: relative;
+            padding: 25px;
+
+            .linguagem {
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-radius: 5px 0px 0px 0px;
+                min-width: 45px;
+                height: 20px;
+
+                span {
+                    font-size: 15px;
+                }
+
+            }
+
+            .link {
+                .btn_link {
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
 }

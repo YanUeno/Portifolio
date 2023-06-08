@@ -5,8 +5,10 @@
         font-size: 30px;
         margin-right: 2%;
         color: #a8b2d1;
+        transition: all 0.5s ease;
         &:hover{
             color: #64ffda;
+            transform: scale(1.1);
         }
     }
 }

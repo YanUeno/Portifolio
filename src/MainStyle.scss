@@ -7,5 +7,33 @@
     background-color: #09182f;
     min-height: 100vh;
     color: white;
-    padding: 100px;
+    padding: 80px 50px;
+    position: relative;
+}
+.MenuButton{
+    position: fixed;
+    z-index: 10;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    &:hover{
+        transition: all 0.5s ease;
+        transform: scale(1.1);
+    }
+}
+body{
+    background-color: #09182f;
+    transition: all 0.5s ease;
+}
+.animation{
+    transition: width 0.2s ease;
+}
+*{
+    transition: width 0.2s ease;
 }
