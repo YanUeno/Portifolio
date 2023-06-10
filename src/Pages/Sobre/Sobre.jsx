@@ -27,7 +27,7 @@ function Rsociais() {
           <div className="col-12 col-md-7">
             <div className='Card'>
               <h2 className='title'>
-                <span className='num'>1.</span> Sobre mim
+                <span className='num'>1.</span> Sobre
               </h2>
               <p className='txt'>
                 Olá, meu nome é Yan, sou um desenvolvedor formado em técnico de informática, atualmente cursando Engenharia da Computação. Desde 2020, venho trabalhando com desenvolvimento de software e, durante esse período, adquiri experiência em diversas linguagens de programação, como JavaScript e C#.
@@ -42,21 +42,21 @@ function Rsociais() {
 
         <div className='Card' >
           <h2 className='title' data-aos="fade-right">
-            <span className='num'>2.</span> Minhas habilidades
+            <span className='num'>2.</span> Habilidades
           </h2>
           <Skils />
         </div>
 
         <div className='Card' data-aos="fade-right">
           <h2 className='title'>
-            <span className='num'>3.</span> Formação Academica
+            <span className='num'>3.</span> Formações
           </h2>
           <Timeline items={Formacao} />
         </div>
 
         <div className='Card' data-aos="fade-right">
           <h2 className='title'>
-            <span className='num'>4.</span> Experiencia Profissional
+            <span className='num'>4.</span> Carreira
           </h2>
           <Timeline items={Trabalhos} />
         </div>
