@@ -20,7 +20,7 @@ function Rsociais() {
       <div className='container'>
         <div className="row" data-aos="fade-right">
           <div className=" col-12 col-md-5">
-            <div className='Card'>
+            <div className='Card centralizar'>
               <img src={yan} alt="Yan Ueno" className='imagem' />
             </div>
           </div>

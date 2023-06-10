@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 function ProjectCards(props) {
   return (
-    <div className='container main'>
-      <div className='row'>
+    <div className='container main' data-aos="fade-right">
+      <div className='row espacamento'>
         <a href='https://github.com/YanUeno' target={"_blank"} rel="noreferrer" className='LinkGh'>GitHub <FaGithub /></a>
         <div className='col-md-12'>
           <div className='Mcard'>

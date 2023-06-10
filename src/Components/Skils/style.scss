@@ -5,12 +5,13 @@
     .skills {
         padding: 10px 0px 10px 0px;
         div {
+            margin-top: 20px;
             gap: 20px;
             display: inline-flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 30px;
+            font-size: 25px;
 
             svg {
                 color: white;
