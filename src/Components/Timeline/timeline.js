@@ -6,7 +6,7 @@ function Timeline(items) {
         <div className='row txt'>
             {
                 items.items.map((item =>(
-                    <div className='col-md-12 item' key={item.key}>
+                    <div className='col-md-12 item' key={item.key} >
                         <h5 className='ano'>{item.Inicio} - {item.Fim} <br/> {item.Funcao}</h5>
                         <h4 className='lugar'>{item.Nome}</h4>
                         <h5 className='conteudo'>{item.descricao}</h5>

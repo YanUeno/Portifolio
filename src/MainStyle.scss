@@ -2,12 +2,15 @@
 
 .main{
     font-family: 'Fira Code', monospace;
+    // padding: 0;
 }
 .main_page{
     background-color: #09182f;
+    // background-image: linear-gradient(-45deg, #09182f 0%, #005240 100%);
     min-height: 100vh;
     color: white;
-    padding: 80px 50px;
+    // padding: 80px 50px;
+    padding: 0;
     position: relative;
 }
 .MenuButton{
