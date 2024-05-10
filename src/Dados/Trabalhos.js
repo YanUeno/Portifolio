@@ -19,7 +19,7 @@ export const Trabalhos=[
         key:3,
         Nome:"2RP Net" ,
         Inicio:"Fev/2022",
-        Fim:"?",
+        Fim:"Abril/2024",
         Funcao:"Dev. Full Stack",
         descricao:" Empresa de desenvolvimento de softwares. Atuando como Full Stack utilizando principalmente React e Typescript.",
     },

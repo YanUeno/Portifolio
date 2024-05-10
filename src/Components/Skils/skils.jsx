@@ -11,7 +11,7 @@ function Skils() {
   return (
     <div className='row skils_card'>
 
-      <div className='col-12 skills' data-aos="fade-right" >
+      <div className='col-12 skills' data-aos-once='true' data-aos="fade-right" >
         <div className='col-6 col-md-3'>
           <FaHtml5 /> HTML5
         </div>
@@ -25,7 +25,7 @@ function Skils() {
           <SiTailwindcss /> TailWind
         </div>
       </div>
-      <div className='col-12 skills' data-aos="fade-right" >
+      <div className='col-12 skills' data-aos-once='true' data-aos="fade-right" >
         <div className='col-6 col-md-3'>
           <SiCsharp /> C#
         </div>
@@ -39,7 +39,7 @@ function Skils() {
           <FaPhp /> php
         </div>
       </div>
-      <div className='col-12 skills' data-aos="fade-right" >
+      <div className='col-12 skills' data-aos-once='true' data-aos="fade-right" >
         <div className='col-6 col-md-3'>
           <FaJsSquare /> Javascript
         </div>
@@ -54,7 +54,7 @@ function Skils() {
           <FaVuejs /> Vue.js
         </div>
       </div>
-      <div className='col-12 skills' data-aos="fade-right" >
+      <div className='col-12 skills' data-aos-once='true' data-aos="fade-right" >
         <div className='col-6 col-md-3'>
           <DiMysql /> Mysql
         </div>

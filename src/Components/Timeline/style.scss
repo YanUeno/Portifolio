@@ -1,23 +1,11 @@
 .LinhaDoTempotempo {
     padding: 15px 70px;
-
     .txt {
         position: relative;
 
         h5,
         h4 {
             line-height: 1.2;
-        }
-
-        &::before {
-            content: "";
-            background-color: white;
-            width: 1px;
-            height: 80%;
-            position: absolute;
-            left: -38px;
-            top: 20px;
-            z-index: 1;
         }
 
         .item {
@@ -36,20 +24,28 @@
             //     }
             // }
             margin-bottom: 50px;
-
+            // &::before {
+            //     content: "";
+            //     background-color: white;
+            //     width: 1px;
+            //     height: 80%;
+            //     position: absolute;
+            //     left: -38px;
+            //     top: 20px;
+            //     z-index: 1;
+            // }
             .ano {
                 margin-right: 40px;
                 font-size: 15px;
                 margin-bottom: 5px;
                 position: relative;
                 color: #7c87a4;
-
                 &::after {
                     content: "⦿";
                     position: absolute;
                     font-size: 25px;
                     left: -60px;
-                    top: -7px;
+                    top: 34px;
                     background-color: #09182f;
                     z-index: 2;
                     padding-bottom: 4px;
