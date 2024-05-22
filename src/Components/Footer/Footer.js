@@ -4,7 +4,7 @@ import './style.scss'
 function Rsociais() {
   return (
     <div className='footer'>
-      <p>Built by Yan Ueno</p>
+      <p>Build by Yan Ueno</p>
     </div>
   );
 }
